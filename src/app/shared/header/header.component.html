@@ -1,0 +1,21 @@
+<div class="header">
+    <button>
+        <img src="../../../assets/apple-logo.png">
+    </button>
+    <div [ngClass]="!collapse ? 'button' : 'hide'">
+        <ng-container *ngFor="let obj of headerList">
+            <button [routerLink]="[obj.router]">{{ obj.text }}</button>
+        </ng-container>
+    </div>
+    <button>
+        <img src="../../../assets/search.png">
+    </button>
+    <button>
+        <img class="bag-img" src="../../../assets/bag.jpg">
+    </button>
+    <div [ngClass]="!collapse ? 'hide' : 'button'">
+        <button>
+            <img src="../../../assets/search.png">
+        </button>
+    </div>
+</div>

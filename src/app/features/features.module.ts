@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomepageComponent } from './pages/homepage/homepage.component';
-import { StoreComponent } from './pages/store/store.component';
-import { MacComponent } from './pages/mac/mac.component';
+import { HomeModule } from './home/home.module';
+import { MacModule } from './mac/mac.module';
+import { StoreModule } from './store/store.module';
 
 
 
 @NgModule({
-  declarations: [
-    HomepageComponent,
-    StoreComponent,
-    MacComponent
-  ],
+  declarations: [],
   imports: [
-    CommonModule
+    CommonModule,
+    HomeModule,
+    MacModule,
+    StoreModule,
   ]
 })
 export class FeaturesModule { }
