@@ -1,5 +1,26 @@
 # AppleWebsite
 
+## Creating Full Replica of Apple Website & Functionality
+
+## Completed:
+- Header
+- Homepage
+
+## Need to Complete:
+- Footer
+- Store
+- Mac
+- iPad
+- Watch
+- Vision
+- Airpods
+- TV & Home
+- Entertainment
+- Accessories
+- Support
+- Search Bar
+- Bag
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
 ## Development server

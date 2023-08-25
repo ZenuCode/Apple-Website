@@ -1,2 +1,13 @@
-<p>homepage works!</p>
-<button routerLink="/mac-main">Go to mac</button>
+<p class="donate">
+    We’re donating $10 to the National Park Foundation for every purchase made at Apple using Apple Pay through 8/27.
+    <button [routerLink]="['store']">Shop Now</button>
+</p>
+<div class="main-container" *ngFor="let obj of mainText">
+    <h1>{{obj.large}}</h1>
+    <h2>{{obj.small}}</h2>
+    <button>{{obj.button}}</button>
+    <div *ngIf="obj.button2">
+        <button>{{obj.button2}}</button>
+    </div>
+    <img src="obj.image">
+</div>
