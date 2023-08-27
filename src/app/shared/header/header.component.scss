@@ -4,7 +4,7 @@
     gap: 15px;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 button {
@@ -14,6 +14,7 @@ button {
     font-size: 14px;
     cursor: pointer;
     white-space: nowrap;
+    gap: 20px;
 }
 
 img {
@@ -21,12 +22,16 @@ img {
     border: none;
     background: none;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .bag-img {
     width: 35px;
+    margin-top: 15px;
 }
 
 .hide {
     display: none;
+    align-items: center;
+    justify-content: center;
 }

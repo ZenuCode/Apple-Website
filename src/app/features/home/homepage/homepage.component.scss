@@ -1,0 +1,81 @@
+.donate {
+    text-align: center;
+    word-wrap: break-word;
+    max-width: 60%;
+    font-size: 19px;
+    margin: 0 35%;
+    margin-top: 40px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.donate-btn {
+    border: none;
+    background: none;
+    font-size: 15px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: rgb(54, 134, 255);
+    align-items: center;
+}
+
+.main-container {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 55px;
+    max-width: 55%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-weight: 600;
+}
+
+.main-subtitle {
+    font-size: 25px;
+    font-weight: 400;
+    max-width: 55%;
+    word-wrap: break-word;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+    color: rgb(54, 134, 255);
+    align-items: center;
+}
+
+img {
+    max-width: 70%;
+    margin-top: 30px;
+}
+
+.terms-container {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 15px;
+    max-width: 50%; /* Set maximum width to 50% of screen width */
+    word-wrap: break-word;
+    margin: auto; /* Center-align the title within its container */
+}
+
+@media (max-width: calc(100vw - 50%)) {
+    /* Adjust the breakpoint to when you want the text to start wrapping */
+    .terms-container {
+        text-align: left; /* Align text to the left */
+    }
+}

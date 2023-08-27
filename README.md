@@ -1,6 +1,7 @@
 # AppleWebsite
 
 ## Creating Full Replica of Apple Website & Functionality
+- 1 Full Page Completion per Day
 
 ## Completed:
 - Header

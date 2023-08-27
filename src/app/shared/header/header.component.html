@@ -2,7 +2,7 @@
     <button>
         <img src="../../../assets/apple-logo.png">
     </button>
-    <div [ngClass]="!collapse ? 'button' : 'hide'">
+    <div class="header" [ngClass]="!collapse ? 'button' : 'hide'">
         <ng-container *ngFor="let obj of headerList">
             <button [routerLink]="[obj.router]">{{ obj.text }}</button>
         </ng-container>
