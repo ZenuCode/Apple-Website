@@ -11,7 +11,7 @@ export class HomepageComponent {
       large: "Save on Mac or iPad for college.", 
       small: "Plus get a gift card up to $150.", 
       button: "Shop now >",
-      image: "../../../../assets/back-to-school.png",
+      image: "../../../../assets/b-to-school.jpeg",
     },
     { 
       large: "MacBook Air 15''", 
